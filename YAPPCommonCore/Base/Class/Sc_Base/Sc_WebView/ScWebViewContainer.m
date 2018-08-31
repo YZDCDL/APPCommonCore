@@ -8,6 +8,8 @@
 
 #import "ScWebViewContainer.h"
 #import "NSString+ScWebView.h"
+#import <Masonry/Masonry.h>
+#import <WebKit/WebKit.h>
 
 static NSString *const LOADING_KEYPATH  = @"loading";
 static NSString *const TITLE_KEYPATH    = @"title";

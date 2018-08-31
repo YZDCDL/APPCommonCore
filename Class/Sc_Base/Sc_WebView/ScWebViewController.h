@@ -10,7 +10,7 @@
 
 #import "ScViewController.h"
 #import "ScWebViewConfiguration.h"
-@class  ScWebViewContainer;
+#import "ScWebViewContainer.h"
 
 
 @interface ScWebViewController : ScViewController

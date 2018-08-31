@@ -7,6 +7,8 @@
 //
 
 #import "ScWebViewController.h"
+#import <Masonry/Masonry.h>
+#import "NSString+ScCategory.h"
 
 NSString *const EXWebViewReloadNotification = @"EXWebViewReloadNotification";
 

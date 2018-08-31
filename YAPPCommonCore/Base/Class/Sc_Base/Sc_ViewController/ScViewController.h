@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ScViewcontrollerProtocol.h"
 #import "ScNavigationBar.h"
+#import "Sc_SysMacro.h"
 // 导航栏所占高度
 #define iCCNavigationHeight [ScViewController navigationHeight]
 

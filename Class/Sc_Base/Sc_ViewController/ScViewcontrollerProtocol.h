@@ -12,7 +12,7 @@
 @protocol ScViewcontrollerProtocol <NSObject>
 #pragma mark ================ public method ===============
 // 1.加载viewModel
-- (instancetype)initWithViewModel:(id <ScViewModelProtocol>) viewModel;
+//- (instancetype)initWithViewModel:(id <ScViewModelProtocol>) viewModel;
 
 // 2.绑定视图和数据
 - (void)bindViewModel;
@@ -35,13 +35,13 @@
 //- (void)reloadViewController;
 
 // 8.返回上一层
-- (void)backToPreviousView;
+//- (void)backToPreviousView;
 
 // 9.加载空视图（未完成）
 //- (void)addReloadView:(void (^)())eventBlock;
 
 // 10.移除空视图
-- (void)removeReloadView;
+//- (void)removeReloadView;
 
 
 @end
